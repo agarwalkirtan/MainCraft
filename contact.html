@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">
+        <a href="about.html"><img src="image/logo.png" alt="MainCraft Logo" class="logo-img"></a>
+    </div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="contact">
+    <h1>Contact Us</h1>
+
+    <form name="contactForm" onsubmit="return validateForm()">
+
+        <input type="text" name="name"
+        placeholder="Enter Your Name">
+
+        <input type="email" name="email"
+        placeholder="Enter Your Email">
+
+        <textarea name="message"
+        placeholder="Enter Your Message"></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
