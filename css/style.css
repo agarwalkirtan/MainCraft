@@ -193,6 +193,13 @@ nav ul li a.active {
     -webkit-text-fill-color: transparent;
     display: inline-block;
 }
+/* .hero-content h2 {
+    color: #cec320;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 24px; */
+/* } */
 
 .hero-content p {
     color: #94a3b8;
